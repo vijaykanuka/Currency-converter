@@ -1,0 +1,83 @@
+ *{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    cursor: default;
+ }
+
+ h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+ }
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://media.istockphoto.com/id/1334546526/photo/global-currency-exchange-concept-businessman-holding-world-with-virtual-line-effect-and.jpg?s=170667a&w=0&k=20&c=3O1ZbQBbD2NjS3Hiuj8Ht03k9dTFdm9cKS3sUwUekv0=");
+    background-size: cover;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid;
+    width: 350px;
+    height: 500px;
+    margin-top: 5%;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 20px rgb(245, 244, 243);
+    /* background:linear-gradient(180deg,rgb(231, 231, 235),rgb(199, 193, 193),white) */
+  
+}
+input{
+    width: 80%;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 2px solid black;
+   
+    color: rgb(19, 17, 17);
+}
+#second{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+img{
+    height: 60px;
+    width: 70px;
+    border-radius: 20px;
+    
+}
+select{
+    height: 25px;
+    width: 80px;
+}
+#result{
+    width: 80%;
+    height: 40px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+ padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(158, 150, 150);
+}
+button{
+font-size: 25px;
+height: 40px;
+width: 90px;
+border-radius: 10px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 20px black;
+}
+#Date{
+    color: antiquewhite;
+}
